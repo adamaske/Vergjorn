@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &614293147881445893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 614293147881445915}
+  - component: {fileID: 614293147881445914}
+  m_Layer: 0
+  m_Name: RandomSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &614293147881445915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614293147881445893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &614293147881445914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614293147881445893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab73e22250640d24eb10b750f81f9f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfTrees: 50
+  numberOfRocks: 20
+  treesPrefabs:
+  - {fileID: 628770099753376519, guid: 66bfebb7107a8c94a90ecbe66f0cedfc, type: 3}
+  - {fileID: 6192514673725673901, guid: 213c2a508f5c4c945a99d920d6d2e1a6, type: 3}
+  - {fileID: 3334621342585250978, guid: 4d731bdb7030058418520ef909efe3de, type: 3}
+  rocksPrefabs:
+  - {fileID: 100000, guid: b2d7d77df4449b24fb2fffe6ca115874, type: 3}
+  - {fileID: 100000, guid: dfed2e9fb3d8ac84da441095f9422543, type: 3}
+  - {fileID: 100000, guid: f902b41e10cdd2d44aaf1ada606f5d3c, type: 3}
+  - {fileID: 100000, guid: b58e7fdfb89fbc549b36a69243aee4c0, type: 3}
+  - {fileID: 100000, guid: 18cea87bdb7d0fa46986e492321f3d1e, type: 3}
+  - {fileID: 100000, guid: 71bb44319f15e0741846c4fad009f013, type: 3}
+  minX: -15
+  maxX: 15
+  minY: 0
+  maxY: 0.1
+  minZ: -50
+  maxZ: 50
